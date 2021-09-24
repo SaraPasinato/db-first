@@ -1,7 +1,7 @@
                     Entity Name: Car
 ------------------------------------------------------
  NAME          |     TYPE       |  PROPERTY
------------------------------------------------------
+------------------------------------------------------
  ID:              INT          -  PRIMARY_KEY(NOT_NULL,UNIQUE, AUTO_INCREMENT)
  BRAND:           VARCHAR(50)  -  UNIQUE,NOT_NULL
  MODEL:           VARCHAR(50)  -  UNIQUE,NOT_NULL
