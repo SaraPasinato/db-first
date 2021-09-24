@@ -1,0 +1,17 @@
+                    Entity Name: Car
+------------------------------------------------------
+ NAME          |     TYPE       |  PROPERTY
+-----------------------------------------------------
+ ID:              INT          -  PRIMARY_KEY(NOT_NULL,UNIQUE, AUTO_INCREMENT)
+ BRAND:           VARCHAR(50)  -  UNIQUE,NOT_NULL
+ MODEL:           VARCHAR(50)  -  UNIQUE,NOT_NULL
+ COLOR:           CHAR(6)      -  UNIQUE,NOT_NULL DEFAULT '000000'
+ BASE_PRICE:      FLOAT(12,2)  -  UNIQUE;NOT_NULL DEFAULT 10000,00
+ KMS:             SMALLINT     -  NULL
+ REG_YEAR:        YEAR         - UNIQUE;NOT_NULL 
+ FUEL:            CHAR(3)      - NOT_NULL DEFAULT 'ELC'
+ H_POWER:         SMALLINT     - UNIQUE,NOT_NULL 
+ DOOR:            TINYINT(5)   - UNIQUE,NOT_NULL DEFAULT 3
+ TRASMISSION      CHAR(3)      - UNIQUE,NOT_NULL
+ EMISSION         TINYINT(12)  - UNIQUE,NOT_NULL DEFAULT '5'
+ WARRANTY         TINYINT(24)  - NULL
